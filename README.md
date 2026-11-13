@@ -13,3 +13,6 @@ Tracing Unknown Deceased Assets & Succession including Movable Assets like Dorma
   Step-by-Step Civil Trial & Statutory Enforcement Process.
  ## Legal Disclaimer 
  The information provided on this website and repository is strictly for public legal awareness and educational purposes. Especially AI feature is provided for informational purpose only. The accuracy of detection cannot be guaranteed and user should not rely solely on its output for making decisions. All info does not constitute formal legal representation or an attorney-client relationship. Users facing active property disputes or fraudulent deprivation of inheritance are advised to consult a licensed advocate or approach their respective District Legal Empowerment Committee (DLEC) / Ombudsperson for Protection Against Harassment of Women in Property Rights.
+ 
+ >  **Live Platform:** https://merahaq.site/
+>   **Protecting Women's Inheritance Rights across Pakistan**
