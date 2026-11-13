@@ -1,0 +1,23 @@
+# Environment & API Keys (DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.production
+.env.development
+*.key
+*.pem
+*.token
+secrets.*
+config.local.php
+
+# Logs & Cache
+*.log
+temp/
+tmp/
+cache/
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
