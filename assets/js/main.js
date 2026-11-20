@@ -96,10 +96,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 riskBox.className = 'risk-result-box critical';
                 if (isUrdu) {
                     riskTitle.innerHTML = '⚠️ انتہائی شدید خطرہ (Critical Fraud Risk) - کالعدم دستاویز';
-                    riskAdvice.innerHTML = 'سپریم کورٹ آف پاکستان (2026 SCLR 90) کے تحت یہ شرائط شروع ہی سے باطل اور کالعدم ہیں۔ کسی بھی اسٹامپ پیپر یا بیانِ حلفی پر دستخط نہ کریں، اور فوری طور پر فری لیگل ایڈ ہیلپ لائن <strong>1099</strong> یا فوسپاہ (FOSPAH) <strong>1055</strong> پر کال کریں۔';
+                    riskAdvice.innerHTML = 'سپریم کورٹ آف پاکستان (2016 SCMR 1225 - پھول پیر شاہ بنام حفیظ فاطمہ) کے تحت یہ شرائط شروع ہی سے باطل اور کالعدم ہیں۔ کسی بھی اسٹامپ پیپر یا بیانِ حلفی پر دستخط نہ کریں، اور فوری طور پر فری لیگل ایڈ ہیلپ لائن <strong>1099</strong> یا فوسپاہ (FOSPAH) <strong>1055</strong> پر کال کریں۔';
                 } else {
                     riskTitle.innerHTML = '⚠️ CRITICAL FRAUD RISK - Void Ab Initio Clause Detected';
-                    riskAdvice.innerHTML = 'Under Supreme Court Precedent (2026 SCLR 90), uncompensated surrender or stealth power of attorney is legally void. Do NOT sign any paper. Contact the Free Legal Helpline <strong>1099</strong> or FOSPAH <strong>1055</strong> immediately.';
+                    riskAdvice.innerHTML = 'Under Supreme Court Precedent (2016 SCMR 1225 - Phool Peer Shah v. Hafeez Fatima), uncompensated surrender or stealth power of attorney is legally void. Do NOT sign any paper. Contact the Free Legal Helpline <strong>1099</strong> or FOSPAH <strong>1055</strong> immediately.';
                 }
             } else {
                 riskBox.className = 'risk-result-box critical';

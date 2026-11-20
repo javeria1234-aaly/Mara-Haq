@@ -13,10 +13,10 @@ require_once __DIR__ . '/header.php';
         </h1>
         <p class="section-desc">
             <?php echo $lang === 'en' 
-                ? 'Capture or upload a photo of any stamp paper, deed, or affidavit. The system automatically detects whether someone is deceitfully getting your signature on a Hiba Nama (Gift Deed), uncompensated waiver, or title-less relinquishment under Supreme Court Precedent (2026 SCLR 90).' 
+                ? 'Capture or upload a photo of any stamp paper, deed, or affidavit. The system automatically detects whether someone is deceitfully getting your signature on a Hiba Nama (Gift Deed), uncompensated waiver, or title-less relinquishment under Supreme Court Precedent (2016 SCMR 1225 - Phool Peer Shah v. Hafeez Fatima).' 
                 : ($lang === 'ur' 
                     ? 'اسٹامپ پیپر، ہبہ نامہ، یا سادہ اقرار نامے کی کیمرے سے تصویر لیں یا اپلوڈ کریں۔ سسٹم بغیر عنوان کے بھی خفیہ گفٹ ڈیڈ یا وراثت چھیننے کے فراڈ کو خود بخود پکڑ کر فوری وارننگ دے گا کہ دستخط ہرگز نہ کریں۔' 
-                    : 'اسٹامپ پیپر یا ہبہ نامے کی تصویر لیں یا اپلوڈ کریں۔ سسٹم سپریم کورٹ نظائر (2026 SCLR 90) کے تحت بغیر عنوان کے بھی خفیہ گفٹ ڈیڈ اور دستبرداری کی فوری جانچ کرے گا۔'); ?>
+                    : 'اسٹامپ پیپر یا ہبہ نامے کی تصویر لیں یا اپلوڈ کریں۔ سسٹم سپریم کورٹ نظائر (2016 SCMR 1225 - پھول پیر شاہ بنام حفیظ فاطمہ) کے تحت بغیر عنوان کے بھی خفیہ گفٹ ڈیڈ اور دستبرداری کی فوری جانچ کرے گا۔'); ?>
         </p>
     </div>
 
@@ -331,10 +331,10 @@ require_once __DIR__ . '/header.php';
                 <div class="supreme-court-shield">
                     <h4 style="font-size: 16px; color: #065f46; margin-bottom: 8px;">
                         <i class="fa fa-scale-balanced" style="color: var(--primary);"></i>
-                        سپریم کورٹ آف پاکستان کا قانونی تحفظ (2026 SCLR 90):
+                        سپریم کورٹ آف پاکستان کا قانونی تحفظ (2016 SCMR 1225):
                     </h4>
                     <p style="font-size: 14px; line-height: 1.85; color: #1e293b;" id="precedentExplanation">
-                        سپریم کورٹ آف پاکستان نے <strong>غلام شبیر بنام مسماۃ نور بیگم (2026 SCLR 90)</strong> میں واشگاف فیصلہ دیا ہے کہ خواتین سے بلا معاوضہ دستبرداری لینا، حق بخشوانا، خاندانی دباؤ میں ہبہ نامہ لکھوانا یا خفیہ اختیارات والا مختار نامہ حاصل کرنا شروع ہی سے غیر قانونی اور کالعدم (Void Ab Initio) ہے۔ اس دستاویز پر دستخط ہرگز نہ کریں۔
+                        سپریم کورٹ آف پاکستان نے <strong>پھول پیر شاہ بنام حفیظ فاطمہ (2016 SCMR 1225)</strong> میں فیصلہ دیا ہے کہ جب کوئی بزرگ، ناخواندہ یا پردہ نشین خاتون جائیداد کے کسی لین دین سے انکار کرے، تو اس منتقلی کے درست اور باقاعدہ ہونے کا بارِ ثبوت فائدہ حاصل کرنے والے (Beneficiary) پر منتقل ہو جاتا ہے۔ خواتین سے بلا معاوضہ دستبرداری لینا یا خاندانی دباؤ میں ہبہ نامہ لکھوانا قانوناً باطل ہے، اس دستاویز پر دستخط ہرگز نہ کریں۔
                     </p>
                 </div>
 
@@ -404,8 +404,8 @@ require_once __DIR__ . '/header.php';
         </h3>
         <div style="font-size: 14.5px; line-height: 1.9; color: var(--text-main);">
             <?php
-            $precedent_ur = 'سپریم کورٹ آف پاکستان نے اپنے تاریخی فیصلوں خصوصاً <strong>غلام شبیر بنام مسماۃ نور بیگم (2026 SCLR 90)</strong>، <strong>مسماۃ سکینہ بنام بورڈ آف ریونیو</strong> اور <strong>PLD 2021 SC 873</strong> میں دو ٹوک قانون طے کیا ہے کہ پاکستانی معاشرے میں پردہ نشین یا خاندانی دباؤ میں رہنے والی خواتین سے لیے گئے تمام ہبہ نامے (Gift Deeds)، زبانی ہبہ نامے، بلا معاوضہ تنازل نامے، اور خفیہ اختیارات والے مختار نامے شروع ہی سے مشتبہ اور باطل (Void Ab Initio) تصور ہوں گے۔ عدالتِ عظمیٰ نے یہ شرط عائد کی ہے کہ اگر کوئی بھائی یا مرد رشتہ دار یہ دعویٰ کرے کہ بہن یا ماں نے اپنا حصہ "ہبہ" یا "تحفہ" کر دیا ہے، تو اس ہبہ کے حقیقی اور رضاکارانہ ہونے، معقول مالی ادائیگی ہونے اور خاتون کے ذاتی آزاد وکیل کی موجودگی کو ثابت کرنے کا 100 فیصد بوجھ مرد پر ہوگا ورنہ ہبہ فوری منسوخ کر دیا جائے گا۔';
-            $precedent_en = 'In landmark precedents including <strong>Ghulam Shabbir v. Mst. Noor Begum (2026 SCLR 90)</strong> and <strong>PLD 2021 SC 873</strong>, the Supreme Court of Pakistan established that uncompensated gift deeds (Hiba-nama) or waivers executed by female family members under familial influence are presumptively fraudulent and void ab initio. The entire legal burden lies upon the male beneficiary to demonstrate that the gift was voluntary, independent legal counsel was present, and fair compensation was tendered.';
+            $precedent_ur = 'سپریم کورٹ آف پاکستان نے اپنے تاریخی فیصلوں خصوصاً <strong>پھول پیر شاہ بنام حفیظ فاطمہ (2016 SCMR 1225)</strong>، <strong>مسماۃ سکینہ بنام بورڈ آف ریونیو</strong> اور <strong>PLD 2021 SC 873</strong> میں دو ٹوک قانون طے کیا ہے کہ جب کوئی بزرگ، ناخواندہ یا پردہ نشین خاتون جائیداد کے کسی لین دین یا دستبرداری سے انکار کرے تو بارِ ثبوت فائدہ حاصل کرنے والے (Beneficiary) پر منتقل ہو جاتا ہے۔ پاکستانی معاشرے میں پردہ نشین یا خاندانی دباؤ میں رہنے والی خواتین سے لیے گئے تمام ہبہ نامے (Gift Deeds)، زبانی ہبہ نامے، بلا معاوضہ تنازل نامے، اور خفیہ اختیارات والے مختار نامے شروع ہی سے مشتبہ اور باطل (Void Ab Initio) تصور ہوں گے۔ عدالتِ عظمیٰ نے یہ شرط عائد کی ہے کہ اگر کوئی بھائی یا مرد رشتہ دار یہ دعویٰ کرے کہ بہن یا ماں نے اپنا حصہ "ہبہ" یا "تحفہ" کر دیا ہے، تو اس ہبہ کے حقیقی اور رضاکارانہ ہونے، معقول مالی ادائیگی ہونے اور خاتون کے ذاتی آزاد وکیل کی موجودگی کو ثابت کرنے کا 100 فیصد بوجھ مرد پر ہوگا ورنہ ہبہ فوری منسوخ کر دیا جائے گا۔';
+            $precedent_en = 'In landmark precedents including <strong>Phool Peer Shah v. Hafeez Fatima (2016 SCMR 1225)</strong> and <strong>PLD 2021 SC 873</strong>, the Supreme Court of Pakistan ruled that when an elderly, illiterate, or rustic Pardanasheen woman denies a property transaction, the burden of proof shifts to the beneficiary claiming rights under it. Furthermore, uncompensated gift deeds (Hiba-nama) or waivers executed by female family members under familial influence are presumptively fraudulent and void ab initio. The entire legal burden lies upon the beneficiary to demonstrate that the transaction was voluntary, independent legal counsel was present, and fair compensation was tendered.';
             ?>
             <?php if ($lang === 'both'): ?>
                 <div class="dual-block">
@@ -464,7 +464,7 @@ const fraudRules = [
         category: "CRITICAL",
         title_ur: "ہبہ نامہ / گفٹ ڈیڈ شق (Hiba / Gift Deed Clause)",
         explanation_ur: "دستاویز میں آپ کے شرعی وراثتی حق کو 'ہبہ' (Gift) کروا کے مفت ہتھیانے کی صریح کوشش کی جا رہی ہے۔ سپریم کورٹ کے مطابق خواتین سے خاندانی وراثتی جائیداد کا ہبہ کروانا فراڈ تصور ہوگا۔",
-        legal_basis: "2026 SCLR 90 / PLD 2021 SC 873 / تعزیراتِ پاکستان دفعہ 498-A"
+        legal_basis: "2016 SCMR 1225 / PLD 2021 SC 873 / تعزیراتِ پاکستان دفعہ 498-A"
     },
     {
         id: "stealth_hiba_titleless",
@@ -483,8 +483,8 @@ const fraudRules = [
         regex: /(بلا\s*معاوضہ|حق\s*بخش|دستبردار|ہبہ\s*بلا\s*عوض|چھوڑ\s*دیا|کوئی\s*دعویٰ\s*نہ|دستبرداری|تنازل|relinquish|surrender|waive\s*inheritance|without\s*consideration)/i,
         category: "CRITICAL",
         title_ur: "بلا معاوضہ دستبرداری یا 'حق بخشوانا' (Uncompensated Relinquishment)",
-        explanation_ur: "دستاویز میں آپ سے بغیر معقول رقم یا مارکیٹ ویلیو کے وراثتی حق چھوڑنے کا اقرار کروایا جا رہا ہے۔ سپریم کورٹ نظیر (2026 SCLR 90) کے تحت یہ تحریر شروع ہی سے باطل اور کالعدم ہے۔",
-        legal_basis: "2026 SCLR 90 / دفعہ 498-A مجموعہ تعزیرات پاکستان (عورت کو وراثت سے محروم کرنے پر 10 سال تک قید)"
+        explanation_ur: "دستاویز میں آپ سے بغیر معقول رقم یا مارکیٹ ویلیو کے وراثتی حق چھوڑنے کا اقرار کروایا جا رہا ہے۔ سپریم کورٹ نظیر (2016 SCMR 1225 - پھول پیر شاہ بنام حفیظ فاطمہ) کے تحت جب کوئی پردہ نشین خاتون انکار کرے تو بارِ ثبوت دعویدار پر ہوتا ہے اور ایسی تحریر باطل ہے۔",
+        legal_basis: "2016 SCMR 1225 (پھول پیر شاہ بنام حفیظ فاطمہ) / دفعہ 498-A مجموعہ تعزیرات پاکستان (عورت کو وراثت سے محروم کرنے پر 10 سال تک قید)"
     },
     {
         id: "power_of_attorney_sale",
@@ -783,7 +783,7 @@ function promptUserForDocumentType() {
     });
 }
 
-// 5. Evaluate Text Against Fraud Rules, Stealth Hiba & Supreme Court 2026 SCLR 90
+// 5. Evaluate Text Against Fraud Rules, Stealth Hiba & Supreme Court 2016 SCMR 1225
 function evaluateDocumentText(text) {
     const resultBox = document.getElementById('fraudAnalysisResult');
     const resultBanner = document.getElementById('resultBanner');

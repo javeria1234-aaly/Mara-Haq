@@ -108,8 +108,8 @@ require_once __DIR__ . '/header.php';
                 <div class="member-role-ur">ایڈووکیٹ اشراق علی (قانونی مشیر و ایڈووکیٹ)</div>
                 <p class="member-desc">
                     <?php echo dual_val(
-                        'بطور مستند وکیل، پورے پروجیکٹ کی قانونی ریڑھ کی ہڈی۔ سپریم کورٹ نظائر (2026 SCLR 90)، نادرا قوانین، شریعہ وراثتی طریقہ کار، اور عدالتی پروسیجرز کی مکمل رہنمائی فراہم کی۔',
-                        'Practicing legal counsel and procedural architect. Formulated statutory workflows, Supreme Court precedent mappings (2026 SCLR 90), and Shariah compliance logic.'
+                        'بطور مستند وکیل، پورے پروجیکٹ کی قانونی ریڑھ کی ہڈی۔ سپریم کورٹ نظائر (2016 SCMR 1225 پھول پیر شاہ بنام حفیظ فاطمہ)، نادرا قوانین، شریعہ وراثتی طریقہ کار، اور عدالتی پروسیجرز کی مکمل رہنمائی فراہم کی۔',
+                        'Practicing legal counsel and procedural architect. Formulated statutory workflows, Supreme Court precedent mappings (2016 SCMR 1225 Phool Peer Shah v. Hafeez Fatima), and Shariah compliance logic.'
                     ); ?>
                 </p>
                 <div class="member-tags">

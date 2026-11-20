@@ -66,7 +66,7 @@ $featured_ngos = $ngo_stmt->fetchAll();
         </div>
         <div class="precedent-content">
             <span class="precedent-badge">
-                <?php echo $lang === 'en' ? 'Supreme Court Landmark Precedent (2026 SCLR 90)' : ($lang === 'ur' ? 'سپریم کورٹ آف پاکستان اہم قانونی نظیر (2026 SCLR 90)' : 'سپریم کورٹ آف پاکستان اہم فیصلہ / Supreme Court Landmark Precedent (2026 SCLR 90)'); ?>
+                <?php echo $lang === 'en' ? 'Supreme Court Landmark Precedent (2016 SCMR 1225)' : ($lang === 'ur' ? 'سپریم کورٹ آف پاکستان اہم قانونی نظیر (2016 SCMR 1225)' : 'سپریم کورٹ آف پاکستان اہم فیصلہ / Supreme Court Landmark Precedent (2016 SCMR 1225)'); ?>
             </span>
             <h3>
                 <?php echo dual_val($translations['ur']['sc_precedent'], $translations['en']['sc_precedent']); ?>
@@ -75,8 +75,8 @@ $featured_ngos = $ngo_stmt->fetchAll();
                 <?php echo dual_val($translations['ur']['sc_precedent_text'], $translations['en']['sc_precedent_text'], true); ?>
             </div>
             <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 14px;">
-                <a href="https://pakistankanoon.com/sclr2026.php/2026-SCLR-90" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-                    <i class="fa fa-external-link-alt"></i> <?php echo $lang === 'en' ? 'Read 2026 SCLR 90 Judgment' : ($lang === 'ur' ? 'فیصلے کا اصل متن پڑھیں (2026 SCLR 90)' : 'فیصلے کا اصل متن (2026 SCLR 90 Judgment)'); ?>
+                <a href="https://www.scribd.com/document/383573013/2016-S-C-M-R-1225" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                    <i class="fa fa-external-link-alt"></i> <?php echo $lang === 'en' ? 'Read 2016 SCMR 1225 Judgment' : ($lang === 'ur' ? 'فیصلے کا اصل متن پڑھیں (2016 SCMR 1225)' : 'فیصلے کا اصل متن (2016 SCMR 1225 Judgment)'); ?>
                 </a>
                 <a href="fraud_detector.php" class="btn btn-secondary btn-sm">
                     <i class="fa fa-shield"></i> <?php echo $lang === 'en' ? 'Check Tanazul Risk' : ($lang === 'ur' ? 'دستبرداری کا خطرہ چیک کریں' : 'دستبرداری رسک چیک / Fraud Risk Tool'); ?>
