@@ -20,6 +20,37 @@ require_once __DIR__ . '/header.php';
         </p>
     </div>
 
+    <!-- AI Disclaimer & Mandatory Legal Advisory Banner -->
+    <div class="ai-disclaimer-card" data-aos="fade-up" style="background: #fffbeb; border: 2px solid #fde68a; border-radius: var(--radius-lg); padding: 18px 24px; margin-bottom: 30px; box-shadow: 0 4px 14px rgba(217, 119, 6, 0.08); display: flex; align-items: flex-start; gap: 16px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: #fef3c7; color: #b45309; display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; box-shadow: 0 2px 6px rgba(180, 83, 9, 0.15);">
+            <i class="fa fa-triangle-exclamation"></i>
+        </div>
+        <div style="flex: 1;">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap;">
+                <span style="background: #dc2626; color: #ffffff; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">
+                    <?php echo dual_val('اہم قانونی انتباہ', 'Important Legal Notice'); ?>
+                </span>
+                <h4 style="font-size: 16px; font-weight: 800; color: #78350f; margin: 0;">
+                    <?php echo dual_val('مصنوعی ذہانت (AI) کا انتباہ اور وکیل سے قانونی مشاورت کی اہمیت', 'AI Output Advisory & Mandatory Legal Consultation'); ?>
+                </h4>
+            </div>
+            <p style="font-size: 14.5px; color: #92400e; line-height: 1.8; margin: 0; font-weight: 600;">
+                <?php echo dual_val(
+                    'یہ فراڈ ڈیٹیکٹر ایک معاون AI ٹول ہے۔ مصنوعی ذہانت (AI) بعض اوقات غلطی کر سکتی ہے اور غلط جواب یا غلط نتیجہ بھی دے سکتی ہے۔ اس لیے کسی بھی اسٹامپ پیپر یا دستاویز پر دستخط کرنے یا حتمی فیصلہ لینے سے پہلے کسی مستند اور باضابطہ وکیل (Advocate / Lawyer) سے تفصیلی بات چیت اور قانونی مشاورت کرنا لازمی اور نہایت ضروری ہے۔',
+                    'This fraud detector is an AI-powered awareness assistant. Artificial Intelligence may occasionally produce errors or incorrect results. Therefore, before signing any document or making legal decisions, consulting a licensed Advocate / Lawyer is essential and mandatory.'
+                ); ?>
+            </p>
+            <div style="margin-top: 10px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                <a href="tel:03227653464" style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 800; background: #b45309; color: #ffffff; padding: 5px 14px; border-radius: 6px; text-decoration: none;">
+                    <i class="fa fa-phone"></i> <?php echo dual_val('قانونی رہنمائی: 0322 7653464 (ایڈووکیٹ اشراق علی)', 'Legal Consult: 0322 7653464 (Advocate Ishraq Ali)'); ?>
+                </a>
+                <a href="help.php" style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; color: #78350f; text-decoration: underline;">
+                    <i class="fa fa-hand-holding-heart"></i> <?php echo dual_val('صوبہ وار مفت این جی اوز و ہیلپ لائنز', 'Free Province-wise Legal Helplines'); ?>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <div class="scanner-main-wrapper" data-aos="fade-up">
         <!-- 1. Mode Switcher (Camera vs Upload vs Sample Deeds) -->
         <div class="scanner-mode-selector">
@@ -222,6 +253,12 @@ require_once __DIR__ . '/header.php';
                         اسٹامپ پیپر میں ایسی شقیں موجود ہیں جو سپریم کورٹ نظائر کے تحت قانوناً باطل اور دھوکہ دہی ہیں۔
                     </p>
                 </div>
+            </div>
+
+            <!-- Inline AI Caution Advisory -->
+            <div style="background: #fffbeb; border: 1.5px solid #fde68a; border-radius: 8px; padding: 10px 18px; margin: 12px 24px 0; display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: #92400e; line-height: 1.6;">
+                <i class="fa fa-circle-exclamation" style="color: #b45309; font-size: 18px; flex-shrink: 0;"></i>
+                <span><strong>ضروری مشورہ (Mandatory Legal Check):</strong> AI نتائج میں تکنیکی غلطی کا امکان ہو سکتا ہے۔ کسی بھی دستاویز کی حتمی تصدیق اور قانونی فیصلے کے لیے اپنے وکیل (Advocate) یا لیگل ہیلپ لائن سے بات کرنا لازمی ہے۔</span>
             </div>
 
             <div class="result-body-card">

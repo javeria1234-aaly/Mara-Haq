@@ -31,6 +31,7 @@
                     <li><a href="videos.php"><i class="fa fa-angle-left"></i> <?php echo dual_val('تمام ویڈیو گائیڈز', 'Video Guides'); ?></a></li>
                     <li><a href="help.php"><i class="fa fa-angle-left"></i> <?php echo dual_val('1 سکرین ہیلپ (این جی اوز)', '1-Screen Help (NGOs)'); ?></a></li>
                     <li><a href="fraud_detector.php"><i class="fa fa-angle-left"></i> <?php echo dual_val('فراڈ ڈیٹیکٹر', 'Fraud Detector'); ?></a></li>
+                    <li><a href="team.php"><i class="fa fa-angle-left"></i> <?php echo dual_val('ہماری ٹیم (Creators)', 'Our Team'); ?></a></li>
                 </ul>
             </div>
 

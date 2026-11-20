@@ -125,6 +125,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <li><a href="videos.php" class="nav-link <?php echo $current_page == 'videos.php' ? 'active' : ''; ?>"><i class="fa-brands fa-youtube" style="color: #ef4444;"></i> <?php echo t('nav_videos'); ?></a></li>
                     <li><a href="help.php" class="nav-link nav-cta <?php echo $current_page == 'help.php' ? 'active' : ''; ?>"><i class="fa fa-hand-holding-heart"></i> <?php echo t('nav_ngos'); ?></a></li>
                     <li><a href="fraud_detector.php" class="nav-link <?php echo $current_page == 'fraud_detector.php' ? 'active' : ''; ?>"><i class="fa fa-shield-halved"></i> <?php echo t('nav_fraud'); ?></a></li>
+                    <li><a href="team.php" class="nav-link <?php echo $current_page == 'team.php' ? 'active' : ''; ?>"><i class="fa fa-users"></i> <?php echo t('nav_team'); ?></a></li>
                 </ul>
             </nav>
         </div>
